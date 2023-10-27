@@ -1,3 +1,4 @@
+//fgfgf
 /*
            v1.02
    https://arduproject.es/
@@ -11,6 +12,8 @@
   - Motores y ESC:                  https://arduproject.es/motores-esc-y-su-programacion-en-arduino/
 */
 // Mi prueba
+//fhfhfh
+//vjffdlvkdsvjsdvlzshvzdfvd
 // --------------------------------------------------------------------------------
 bool visu = 1;         // Visualizar variables por canal serie. En vuelo a 0!!
 int visu_select = 4;   // 0: mando RC, 1: giro, 2: acc, 3: ang, 4: esc
