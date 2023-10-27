@@ -97,11 +97,12 @@ void loop() {
   RC_Yaw_consigna      = map(RC_Yaw_raw, us_min_Yaw_raw, us_max_Yaw_raw, us_min_Yaw_adj, us_max_Yaw_adj);
   
   // Monitor Serie
+  Serial.print("Throttle: ");
   Serial.print(RC_Throttle_consigna);
-  Serial.print("\t");
+  Serial.print(" | Pitch: ");
   Serial.print(RC_Pitch_consigna);
-  Serial.print("\t");
+  Serial.print(" | Roll: ");
   Serial.print(RC_Roll_consigna);
-  Serial.print("\t");
+  Serial.print(" | Yaw: ");
   Serial.println(RC_Yaw_consigna);
 }

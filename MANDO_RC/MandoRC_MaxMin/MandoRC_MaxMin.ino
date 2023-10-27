@@ -1,6 +1,8 @@
 /*
    Leer emisora radio control y calcular ancho de pulso máximo y mínimo
    Más información en https://arduproject.es/mando-rc-y-receptor-programacion-en-arduino-sketch/
+
+   valores mando Thmax: 1832 Thmin: 1144Pmax: 1920 Pmin: 1108  Rmax: 1972  Rmin: 968 Ymax: 1960  Ymin: 952
 */
 
 // Declaración de pines

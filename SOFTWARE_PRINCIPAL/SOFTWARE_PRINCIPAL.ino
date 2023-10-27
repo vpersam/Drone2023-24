@@ -12,7 +12,7 @@
 */
 // Mi prueba
 // --------------------------------------------------------------------------------
-bool visu = 0;         // Visualizar variables por canal serie. En vuelo a 0!!
+bool visu = 1;         // Visualizar variables por canal serie. En vuelo a 0!!
 int visu_select = 4;   // 0: mando RC, 1: giro, 2: acc, 3: ang, 4: esc
 bool MODO_vuelo = 1;   // 0: Modo acrobatico, 1: Modo estable (por defecto MODO_vuelo = 1)
 
@@ -60,24 +60,24 @@ float PID_W_Pitch_consigna, PID_W_Roll_consigna;
 // AJUSTE MANDO RC - THROTLLE
 const int us_max_Throttle_adj = 1800;
 const int us_min_Throttle_adj = 970;
-const float us_max_Throttle_raw = 2004;  // <-- Si la entrada Throttle está invertida sustituir este valor
-const float us_min_Throttle_raw = 1116;  // <-- por este y viceversa
+const float us_max_Throttle_raw = 1832; //2004  // <-- Si la entrada Throttle está invertida sustituir este valor
+const float us_min_Throttle_raw = 1144; //1116  // <-- por este y viceversa
 
 // AJUSTE MANDO RC - PITCH
-const float us_max_Pitch_raw = 1952;
-const float us_min_Pitch_raw = 992;
-const int us_max_Pitch_adj = -30;  // <-- Si la entrada Pitch está invertida sustituir este valor
-const int us_min_Pitch_adj = 30;   // <-- por este y viceversa
+const int us_max_Pitch_adj =  30;  //-30  // <-- Si la entrada Pitch está invertida sustituir este valor
+const int us_min_Pitch_adj = -30;  //30;   // <-- por este y viceversa
+const float us_max_Pitch_raw = 1920;
+const float us_min_Pitch_raw = 1108;
 
 // AJUSTE MANDO RC - ROLL
-const float us_max_Roll_raw = 1960;
-const float us_min_Roll_raw = 992;
+const float us_max_Roll_raw = 1972;
+const float us_min_Roll_raw = 968;
 const int us_max_Roll_adj = 30;    // <-- Si la entrada Roll está invertida sustituir este valor
 const int us_min_Roll_adj = -30;   // <-- por este y viceversa
 
 // AJUSTE MANDO RC - YAW
-const float us_max_Yaw_raw = 1928;
-const float us_min_Yaw_raw = 972;
+const float us_max_Yaw_raw = 1960;
+const float us_min_Yaw_raw = 952;
 const int us_max_Yaw_adj = 30;     // <-- Si la entrada Yaw está invertida sustituir este valor
 const int us_min_Yaw_adj = -30;    // <-- por este y viceversa
 
