@@ -9,8 +9,6 @@
   - Lectura de sensor MPU6050:      https://arduproject.es/mpu6050-y-su-programacion/
   - Control de establidad:          https://arduproject.es/control-de-estabilidad-y-pid/
   - Motores y ESC:                  https://arduproject.es/motores-esc-y-su-programacion-en-arduino/
-
-  test github
 */
 
 // --------------------------------------------------------------------------------
